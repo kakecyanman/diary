@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0342E83C6197E2A1B5A2FD48 /* Pods_nikki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412BC8FE64DD2F400B784E12 /* Pods_nikki.framework */; };
+		D4A10EBD24629D60006252BD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A10EBC24629D60006252BD /* DetailViewController.swift */; };
+		D4A10EBF24654693006252BD /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A10EBE24654693006252BD /* Realm.swift */; };
+		D4B8156E2438476B00482A04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8156D2438476B00482A04 /* AppDelegate.swift */; };
+		D4B815702438476B00482A04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8156F2438476B00482A04 /* SceneDelegate.swift */; };
+		D4B815722438476B00482A04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B815712438476B00482A04 /* ViewController.swift */; };
+		D4B815752438476B00482A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B815732438476B00482A04 /* Main.storyboard */; };
+		D4B815772438476E00482A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B815762438476E00482A04 /* Assets.xcassets */; };
+		D4B8157A2438476E00482A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B815782438476E00482A04 /* LaunchScreen.storyboard */; };
+		D4B815A6244E8BF500482A04 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B815A5244E8BF500482A04 /* Event.swift */; };
+		D4B815CC245D627600482A04 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B815CB245D627600482A04 /* ListViewController.swift */; };
+		D4B815CE245D62CA00482A04 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B815CD245D62CA00482A04 /* DiaryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		412BC8FE64DD2F400B784E12 /* Pods_nikki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nikki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6919C9D6C7782A4EAB047018 /* Pods-nikki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nikki.release.xcconfig"; path = "Target Support Files/Pods-nikki/Pods-nikki.release.xcconfig"; sourceTree = "<group>"; };
+		6C8B24113E6829094E273B27 /* Pods-nikki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nikki.debug.xcconfig"; path = "Target Support Files/Pods-nikki/Pods-nikki.debug.xcconfig"; sourceTree = "<group>"; };
+		D4A10EBC24629D60006252BD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D4A10EBE24654693006252BD /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		D4B8156A2438476B00482A04 /* ５年越しの日記.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "５年越しの日記.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B8156D2438476B00482A04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4B8156F2438476B00482A04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4B815712438476B00482A04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4B815742438476B00482A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4B815762438476E00482A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4B815792438476E00482A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4B8157B2438476E00482A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B815A5244E8BF500482A04 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		D4B815CB245D627600482A04 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D4B815CD245D62CA00482A04 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4B815672438476B00482A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0342E83C6197E2A1B5A2FD48 /* Pods_nikki.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90CBB9734CAB8B87F0D94FD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C8B24113E6829094E273B27 /* Pods-nikki.debug.xcconfig */,
+				6919C9D6C7782A4EAB047018 /* Pods-nikki.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4B815612438476B00482A04 = {
+			isa = PBXGroup;
+			children = (
+				D4B8156C2438476B00482A04 /* nikki */,
+				D4B8156B2438476B00482A04 /* Products */,
+				90CBB9734CAB8B87F0D94FD5 /* Pods */,
+				E99ECC2EB42C5B3A7BDC3669 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4B8156B2438476B00482A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8156A2438476B00482A04 /* ５年越しの日記.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4B8156C2438476B00482A04 /* nikki */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8156D2438476B00482A04 /* AppDelegate.swift */,
+				D4B8156F2438476B00482A04 /* SceneDelegate.swift */,
+				D4B815712438476B00482A04 /* ViewController.swift */,
+				D4B815CB245D627600482A04 /* ListViewController.swift */,
+				D4B815CD245D62CA00482A04 /* DiaryViewController.swift */,
+				D4A10EBC24629D60006252BD /* DetailViewController.swift */,
+				D4B815A5244E8BF500482A04 /* Event.swift */,
+				D4A10EBE24654693006252BD /* Realm.swift */,
+				D4B815732438476B00482A04 /* Main.storyboard */,
+				D4B815762438476E00482A04 /* Assets.xcassets */,
+				D4B815782438476E00482A04 /* LaunchScreen.storyboard */,
+				D4B8157B2438476E00482A04 /* Info.plist */,
+			);
+			path = nikki;
+			sourceTree = "<group>";
+		};
+		E99ECC2EB42C5B3A7BDC3669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				412BC8FE64DD2F400B784E12 /* Pods_nikki.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4B815692438476B00482A04 /* nikki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B8157E2438476E00482A04 /* Build configuration list for PBXNativeTarget "nikki" */;
+			buildPhases = (
+				D0A3E85DD65161C192F7E827 /* [CP] Check Pods Manifest.lock */,
+				D4B815662438476B00482A04 /* Sources */,
+				D4B815672438476B00482A04 /* Frameworks */,
+				D4B815682438476B00482A04 /* Resources */,
+				F0073CB2BD6A15603313ABAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nikki;
+			productName = nikki;
+			productReference = D4B8156A2438476B00482A04 /* ５年越しの日記.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4B815622438476B00482A04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = kakeru.geek;
+				TargetAttributes = {
+					D4B815692438476B00482A04 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D4B815652438476B00482A04 /* Build configuration list for PBXProject "nikki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4B815612438476B00482A04;
+			productRefGroup = D4B8156B2438476B00482A04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4B815692438476B00482A04 /* nikki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4B815682438476B00482A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B8157A2438476E00482A04 /* LaunchScreen.storyboard in Resources */,
+				D4B815772438476E00482A04 /* Assets.xcassets in Resources */,
+				D4B815752438476B00482A04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0A3E85DD65161C192F7E827 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nikki-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0073CB2BD6A15603313ABAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nikki/Pods-nikki-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nikki/Pods-nikki-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nikki/Pods-nikki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4B815662438476B00482A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B815A6244E8BF500482A04 /* Event.swift in Sources */,
+				D4B815722438476B00482A04 /* ViewController.swift in Sources */,
+				D4B8156E2438476B00482A04 /* AppDelegate.swift in Sources */,
+				D4B815CC245D627600482A04 /* ListViewController.swift in Sources */,
+				D4B815CE245D62CA00482A04 /* DiaryViewController.swift in Sources */,
+				D4B815702438476B00482A04 /* SceneDelegate.swift in Sources */,
+				D4A10EBD24629D60006252BD /* DetailViewController.swift in Sources */,
+				D4A10EBF24654693006252BD /* Realm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4B815732438476B00482A04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4B815742438476B00482A04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4B815782438476E00482A04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4B815792438476E00482A04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4B8157C2438476E00482A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4B8157D2438476E00482A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4B8157F2438476E00482A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C8B24113E6829094E273B27 /* Pods-nikki.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nikki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kakeru.geek.nikki;
+				PRODUCT_NAME = "５年越しの日記";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4B815802438476E00482A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6919C9D6C7782A4EAB047018 /* Pods-nikki.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nikki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kakeru.geek.nikki;
+				PRODUCT_NAME = "５年越しの日記";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4B815652438476B00482A04 /* Build configuration list for PBXProject "nikki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B8157C2438476E00482A04 /* Debug */,
+				D4B8157D2438476E00482A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B8157E2438476E00482A04 /* Build configuration list for PBXNativeTarget "nikki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B8157F2438476E00482A04 /* Debug */,
+				D4B815802438476E00482A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4B815622438476B00482A04 /* Project object */;
+}
