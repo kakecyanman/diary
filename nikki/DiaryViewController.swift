@@ -12,7 +12,7 @@ import RealmSwift
 class DiaryViewController: UIViewController, UITextViewDelegate {
     
     @IBOutlet var diaryTextView: UITextView!
-    var date:NSDate = NSDate();
+    var date:NSDate = NSDate()
     
     var diary = ""
     

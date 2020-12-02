@@ -80,7 +80,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func getDiaryDate() {
         // タップしたDateのスケジュール取得
         let realm = try! Realm()
-        print(Realm.Configuration.defaultConfiguration.fileURL!)
+        //        print(Realm.Configuration.defaultConfiguration.fileURL!)
         let result = realm.objects(Diary.self)
         diaryArray.removeAll()
         for ev in result {

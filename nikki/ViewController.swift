@@ -142,14 +142,8 @@ class ViewController: UIViewController, FSCalendarDelegate, FSCalendarDataSource
         let toDate = "\(m)/\(d)"
         md = toDate
         
-        
         performSegue(withIdentifier: "next", sender: nil)
         
     }
     
-    
 }
-
-
-
-
